@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VY2098</title>
+    <link rel="stylesheet" type="text/css" href="VY2098.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#interests">Interest</a>
+        <a href="#cat">Cat</a>
+        <a href="#links">Links</a>
+    </div>
+
+    <div class="content">
+        <!-- About Me Section -->
+        <section id="about">
+            <h1>About Me</h1>
+            <p>What do you want to know about me?</p>
+            <div class="timeline">
+                <div class="line"></div>
+                <div class="year" style="top: 0%" onclick="toggleDetail(this)">
+                    <div class="circle"></div>1998
+                    <p class="text-content hidden">
+                        Ha! I was born!<br>
+                        <a href="https://en.wikipedia.org/wiki/Huanggang" target="_blank" class="hidden-link" onclick="event.stopPropagation();">
+                            Click to view my hometown.
+                        </a>
+                    </p>
+                </div>
+                <div class="year" style="top: 12.6%" onclick="toggleDetail(this)">
+                    <div class="circle"></div>2013
+                    <p class="text-content hidden">
+                        This is my last year of junior high school.<br> 
+                        I met many super awesome teachers and they shaped my personality.<br>
+                        I wanted to tell my story and shape others' personality.<br> 
+                        I decided to become a teacher.<br>
+                        <a href="https://zh.wikipedia.org/wiki/%E9%BB%84%E5%86%88%E4%B8%AD%E5%AD%A6" target="_blank" class="hidden-link">
+                            Click to view my high school.
+                        </a>
+                    </p>
+                </div>
+                <div class="year" style="top: 29%" onclick="toggleDetail(this)">
+                    <div class="circle"></div>2015
+                    <p class="text-content hidden">
+                        This year I was introduced to calculus for the first time.<br> 
+                        I was amazed by the ideas and logic it embodies.<br> 
+                        I fell in love with mathematics.<br> 
+                        I want to become a math teacher.<br>
+                        <a href="https://zlibrary-au.se/book/680017/eb07e7/the-calculus-lifesaver-all-the-tools-you-need-to-excel-at-calculus-princeton-lifesaver-study-guide.html" target="_blank" class="hidden-link" onclick="event.stopPropagation();">
+                            This is the book I read.
+                        </a>
+                    </p>
+                </div>
+                <div class="year" style="top: 48%" onclick="toggleDetail(this)">
+                    <div class="circle"></div>2016
+                    <p class="text-content hidden">
+                        This year I went to my dream university.<br>
+                        The next four years will reshape my personality.<br>
+                        I will study abstract algebra, topology, partial differential equations.<br>
+                        I will also learn C, MATLAB, algorithms and data structures.<br> 
+                        I will be exposed to many video games:<br>
+                        <a href="https://undertale.com/" target="_blank" class="hidden-link">Undertale</a>, 
+                        <a href="https://www.hollowknight.com/" target="_blank" class="hidden-link">Hollow Knight</a>, 
+                        <a href="https://zelda.nintendo.com/" target="_blank" class="hidden-link">The Legend of Zelda</a>...<br> 
+                        These games have shown me another way of telling a story.
+                    </p>
+                </div>
+                <div class="year" style="top: 66.8%" onclick="toggleDetail(this)">
+                    <div class="circle"></div>2020
+                    <p class="text-content hidden">
+                        This is the last year of university.<br>
+                        I was admitted to the graduate program in Math Teaching at my university.<br>
+                        The COVID-19 pandemic has broken out.<br>
+                        I was in my hometown, which is only 50 km away from the epicenter.<br> 
+                        I was on the right track of my plan but the world is not.<br>
+                    </p>
+                </div>
+                <div class="year" style="top: 83.3%" onclick="toggleDetail(this)">
+                    <div class="circle"></div>2022
+                    <p class="text-content hidden">
+                        This is the third year of lockdown.<br>
+                        I finally got my dream job.<br>
+                        But I don't belong to this society<br>
+                        I started to learn English and computer science.<br>
+                        I have to fond a place where I can tell my story or my thoughts.
+                    </p>
+                </div>
+                <div class="year" style="top: 97.2%" onclick="toggleDetail(this)">
+                    <div class="circle"></div>2023
+                    <p class="text-content hidden">
+                        This is my first year in Adelaide.<br>
+                        I learned lots of things, met lots of people.<br>
+                        My story continues...
+                    </p>
+                </div>
+            </div>
+            <div class="line dashed"></div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="project-container">
+                <div class="project">
+                    <div class="image-title-container">
+                        <img src="N2T.jpg" alt="Project 1">
+                        <p>Nand to Tetris</p>
+                    </div>                    
+                    <div class="more-info">
+                        <strong>Description:</strong><br><br>
+                        <p>
+                            The Nand to Tetris project is an engaging journey through the construction and functioning of a general-purpose computer system, 
+                            starting from the ground up. It begins with the simplest logical gate, the NAND gate, and culminates in the realization of a fully functional computer system capable of running Tetris.
+                        </p><br>
+                        <strong>Achievements:</strong><br>
+                        <ul>
+                            <li>Successfully built a functioning computer system from Nand gates.</li>
+                            <li>Designed and implemented a hardware platform and software hierarchy, revealing the interplay between hardware and software.</li>
+                            <li>Gained practical experience with hardware description languages (HDLs) and simulated the designed hardware.</li>
+                            <li>Developed an assembler to translate programs written in assembly language into machine code.</li>
+                        </ul>        
+                        <strong>Technologies Used:</strong><br>
+                        <ul>
+                            <li>Hardware Description Language (HDL) for designing the computer architecture.</li>
+                            <li>A Hardware Simulator to test and confirm the functionality of the designed hardware components.</li>
+                            <li>An Assembler developed in a high-level language to translate assembly code into machine code.</li>
+                            <li>The Hack platform, which includes a CPU, memory, and a screen, to run the final Tetris game.</li>
+                        </ul>                                             
+                    </div>
+                    <a href="https://github.com/VY2098/Computer-System" target="_blank" class="detail-link">Detail>></a>
+                </div>
+                <div class="project">
+                    <div class="image-title-container">
+                        <img src="server.jpg" alt="Project 2">
+                        <p>Multi-thread Server</p>
+                    </div>                   
+                    <div class="more-info">
+                        <strong>Description:</strong><br><br>
+                        <p>
+                            This project involves the development of a multi-threaded server capable of handling file transfers concurrently across multiple threads. 
+                            The server employs robust thread synchronization mechanisms, using semaphores and mutex locks to manage access to shared resources. 
+                            The primary functionality includes not only the transfer of files but also the computation and ranking of the frequency of specified keywords within all transmitted documents, 
+                            providing a comprehensive analysis of the data traffic.
+                        </p><br>
+                        <strong>Achievements:</strong><br>
+                        <ul>
+                            <li>Implemented a multi-threaded server that efficiently handles concurrent file transfers on a local network.</li>
+                            <li>Engineered a keyword frequency analysis tool that computes the occurrence rates of given terms across all transferred files.</li>
+                            <li>Utilized semaphores and mutex locks to ensure thread-safe operations and prevent data races during file transfer and analysis.</li>
+                            <li>Devised an algorithm for ranking the processed data, offering valuable insights into keyword significance and document relevancy.</li>
+                        </ul>        
+                        <strong>Technologies Used:</strong><br>
+                        <ul>
+                            <li>Multi-threading in C and Python to enable parallel file transfers and data processing.</li>
+                            <li>Semaphore and mutex lock mechanisms for maintaining data integrity and synchronization among threads.</li>
+                            <li>A custom-built keyword frequency analyzer to parse and compute term frequencies from the file corpus.</li>
+                            <li>An efficient sorting algorithm to order keyword occurrences, facilitating quick retrieval and data analysis.</li>
+                        </ul> 
+                    </div>
+                    <a href="https://github.com/VY2098/Operating-System" target="_blank" class="detail-link">Detail>></a>
+                </div>
+                <div class="project">
+                    <div class="image-title-container">
+                       <img src="ML.jpg" alt="Project 3">
+                        <p>Digits Clusters</p> 
+                    </div>                   
+                    <div class="more-info">
+                        <strong>Description:</strong><br><br>
+                        <p>
+                            The Digits Clusters project is a foray into the field of unsupervised machine learning, 
+                            specifically using the K-means clustering algorithm to categorize handwritten digits. 
+                            Starting from scratch, the project aims to identify and group numerous digit images by their similarities, 
+                            effectively learning to recognize the numerical value each image represents without pre-labeled data.
+                        </p><br>
+                        <strong>Achievements:</strong><br>
+                        <ul>
+                            <li>Developed an unsupervised learning model to classify handwritten digits into distinct clusters.</li>
+                            <li>Applied the K-means algorithm to analyze patterns and features in the data, facilitating the grouping of similar digits.</li>
+                            <li>Processed and prepared a large dataset of handwritten digit images for input into the machine learning model.</li>
+                            <li>Refined the model parameters to optimize cluster accuracy and minimize within-cluster variances.</li>
+                        </ul>        
+                        <strong>Technologies Used:</strong><br>
+                        <ul>
+                            <li>K-means clustering algorithm for identifying inherent groupings in the dataset.</li>
+                            <li>Data preprocessing techniques to convert images into a suitable format for analysis.</li>
+                            <li>Dimensionality reduction methods, such as PCA, to enhance the clustering performance and computational efficiency.</li>
+                            <li>Visualization tools to interpret and validate the clustering results, ensuring the model's effectiveness.</li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/VY2098/Statistical-Machine-Learning" target="_blank" class="detail-link">Detail>></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section id="interests">
+            <h1>Interest</h1>
+            <div style="display: flex; justify-content: space-around;">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BZvEsz7AOUc?si=DlVSvQF6HdURsrGm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>By My Side</p>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/abteXc4rqQA?si=hYI2gh8XPJp2Dk-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>The 105th Day</p>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ybRra03dv5w?si=TMt0YFUcFyekWR3m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>Silent Night</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cat Section -->
+        <section id="cat">
+            <h1>Cat</h1>
+            <img src="cat1.png" alt="Cat" id="catImage">
+            <p>Human, you find me again, say my real name and you can see the real me.</p>
+            <button onclick="checkAnswer('kitty')">Kitty</button>
+            <button onclick="checkAnswer('puppy')">Puppy</button>
+            <button onclick="checkAnswer('bunny')">Bunny</button>
+            <p id="response"></p>
+        </section>
+
+        <!-- Links Section -->
+        <section id="links">
+            <h1>Links</h1>
+            <div style="display: flex; justify-content: space-around;">
+                <a href="https://www.linkedin.com/in/violet-you-48836526a/" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn" style="width: 50px; height: 50px;">
+                </a>
+                <a href="https://github.com/VY2098" target="_blank">
+                    <img src="github.png" alt="GitHub" style="width: 50px; height: 50px;">
+                </a>
+                <a href="https://discordapp.com/users/vy2098" target="_blank">
+                    <img src="discord.png" alt="Discord" style="width: 50px; height: 50px;">
+                </a>
+                <a href="https://steamcommunity.com/profiles/76561198346357112/" target="_blank">
+                    <img src="steam.png" alt="Steam" style="width: 50px; height: 50px;">
+                </a>
+            </div>
+        </section>
+    </div>
+    <script src="VY2098.js"></script>
+</body>
+</html>

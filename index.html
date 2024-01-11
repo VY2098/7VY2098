@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+    <div class="welcome-screen">
+        <img src="cat.png" alt="pixal_cat" class="centered-image">
+        <p id="message">
+            <span id="line1"></span><br>
+            <span id="line2"></span><br>
+            <span id="line3"></span><br>
+            <span id="line4"></span>
+        </p>
+        <div class="button-container" id="buttons" style="display: none;">
+            <button onclick="acceptKey()">* Accept</button>
+            <button onclick="rejectKey()">* Reject</button>
+        </div>
+    </div>
+
+    <script src="welcome.js"></script>
+</body>
+</html>
